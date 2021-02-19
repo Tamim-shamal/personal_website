@@ -1,0 +1,280 @@
+
+<!--
+This is my first page. I have buit this web page in my college and class and by doing some self-study
+Author: Tamim Shamal
+date: 1/7/2021
+File: my_first_webpage
+-->
+
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <style>
+      /* body start from here */
+      body {
+        margin: 0;
+        text-align: center;
+        font-family: sans-serif;
+        color: #40514E;
+      }
+
+      h1 {
+        font-size: 5.4rem;
+        margin-top: 50px;
+        color: #66BFBF;
+        line-height: 2;
+        font-family: 'Sacramento', cursive;
+
+      }
+
+      h2 {
+        font-size: 1.5rem;
+        font-weight: normal;
+        color: #66BFBF;
+        font-family: sans-serif;
+        font-weight: normal;
+      }
+      h3 {
+        color: #66BFBF;
+        font-family: sans-serif;
+      }
+      header {
+        background-color: #EAF6F6;
+        position: fixed;
+        width: 100%;
+      }
+      nav li {
+        margin: 0;
+        padding: 20px 0;
+        display: inline-block;
+        width: 100px;
+      }
+      hr {
+        border-top: 7px dotted #EAF6F6;
+        border-bottom: 0px;
+        border-right: 0px;
+        width: 3%;
+        padding: 0px;
+
+      }
+      .top {
+        background-color: #EAF6F6;
+        position: relative;
+        padding-top: 100px;
+
+      }
+
+      .middle-container{
+      }
+
+      .bottom-container {
+        font-family: sans-serif;
+        background-color: #66BFBF;
+        padding: 30px 0 15px;
+        border-top: 8%;
+      }
+
+      .footer-link {
+        color: #11999E;
+        font-family: sans-serif;
+        font-weight: bold;
+        color: #11999E;
+        padding: 2%;
+      }
+
+      .dev {
+        text-decoration: underline;
+      }
+      .top-cloud{
+        position: absolute;
+        right: 300px;
+        top: 50px;
+      }
+
+      .bottom-cloud{
+        position: absolute;
+        left: 200px;
+        top:300px;
+      }
+
+      .profileImage{
+        height: 150px;
+        width: 150px;
+        padding-top: 5%;
+      }
+      .skillsImage {
+        height: 150px;
+        width: 150px;
+        float: left;
+        margin-right: 30px;
+      }
+
+      .getInTouchImage {
+        height: 150px;
+        width: 150px;
+        float: right;
+        margin-left: 30px;
+      }
+
+      .intro {
+        text-align: left;
+        padding: 20px 20px;
+        line-height: 2;
+        width: 80%;
+        margin: auto;
+      }
+
+      .skill-row {
+        width: 50%;
+        margin: 60px auto 60px auto;
+        text-align: left;
+        text-align: justify;
+        line-height: 2;
+      }
+
+      .phone {
+        height: 40px;
+        width: 40px;
+        border-radius: 70%;
+        padding: 1%;
+      }
+
+      .email {
+        height: 40px;
+        width: 40px;
+        border-radius: 70%;
+        padding: 1%;
+      }
+
+      .address {
+        height: 40px;
+        width: 40px;
+        border-radius: 70%;
+        padding: 1%;
+      }
+
+      .footer {
+        color: #EAF6F6;
+        padding-bottom: 2% 2%;
+        line-height: 3;
+      }
+
+      .contactbt {
+        margin-left: auto;
+        margin-right: auto;
+        border: 2px;
+      }
+
+      .lastp {
+        margin-bottom: 20%;
+      }
+
+      .btn {
+        box-shadow: 0px 12px 14px -7px #276873;
+        background:#EAF6F6;
+        background-color:#66BFBF;
+        border-radius:33px;
+        display:inline-block;
+        cursor:pointer;
+        color:#ffffff;
+        font-family: sans-serif;
+        font-size:15px;
+        font-weight:bold;
+        padding:11px 28px;
+        text-decoration:none;
+        text-shadow:0px 0px 6px #3d768a;
+        margin-bottom: 3%;
+      }
+      .btn:hover {
+        background:linear-gradient(to bottom, #408c99 5%, #599bb3 100%);
+        background-color:#EAF6F6;
+      }
+      .btn:active {
+        position:relative;
+        top:1px;
+      }
+
+      .green {
+        color: green;
+      }
+
+      a {
+        text-decoration: none;
+      }
+
+    </style>
+
+    <meta charset="utf-8">
+     <meta name="keywords" content="HTML, CSS, JavaScript, Tamim Shamal, Java, Python, Website, Web Developr, Software">
+    <title>Tamim Shamal | Web Developr</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="icon" href="https://w7.pngwing.com/pngs/824/301/png-transparent-social-media-scalable-graphics-favicon-icon-t-english-tshirt-blue-text.png">
+    <link rel="preconnect" href="https://fonts.gstatic.com"> <link href="https://fonts.googleapis.com/css2?family=Sacramento&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <header>
+    <nav>
+      <ul>
+        <li><a href="C:\Users\employee\Desktop\devProject\Personal_web\about.html">About</a></li>
+        <li><a href="..\Personal_web\expreinces.html">Experiences</a></li>
+        <li><a href="..\Personal_web\contactMe.html">Contact</a></li>
+      </ul>
+    </nav>
+    </header>
+    <div class="top">
+      <img class="top-cloud" src="..\Personal_web\imgFiles\cloud.png"/>
+      <h1>I'm Tamim</h1>
+      <h2>a Full Stack <span class="dev">Dev</span>eloper</h2>
+      <img class="bottom-cloud" src="..\Personal_web\imgFiles\cloud.png"/>
+      <img class="topImg" src="..\Personal_web\imgFiles\mountain.png"/>
+    </div>
+    <div class="middle-container">
+      <div class="profile">
+        <img class="profileImage" src="..\Personal_web\imgFiles\croppedTamim.png" alt="Tamim's profile picture">
+        <h2>Hello.</h2>
+        <p class="intro">I am studying Bachlor of Software Development in <a href="https://www.greenriver.edu/" target="_blank"> <strong class="green">Green River College</strong></a>.
+          I have learned Java, Python, JavaScript, CSS, and HTML. I have developed a simple <a href="https://play.google.com/store/apps/details?id=com.bmicalc.firstapp" target="_blank">BMI Calculator</a> which is capable with Android System. I have years of experiences on customer service in the US and out of the US. I am good in report writing, management, monitoring and evaluation, research, advocacy and IT – troubleshooting. I have enjoyed working with different people and different cultures. I can speak more than 3 languages. Also, I was always supportive, optimistic and hardworking person.</p>
+      </div>
+      <hr>
+      <div class="skills">
+        <h2>Skills</h2>
+        <div class="skill-row">
+          <img class="skillsImage" src="https://www.flaticon.com/svg/static/icons/svg/609/609129.svg" alt="Skills Image">
+          <h3>Design & Development</h3>
+          <ul>
+            <li>Software Development</li>
+            <li>Databases management (SQL)</li>
+          </ul>
+        </div>
+      </div>
+      <hr>
+      <div class="skill-row">
+        <img class="getInTouchImage" src="https://www.flaticon.com/svg/static/icons/svg/3964/3964434.svg" />
+        <h3>Add another skill here</h3>
+        <ul>
+          <li>Troubleshooting</li>
+          <li>Report writing</li>
+          <li>Project development /management</li>
+          <li>Monitoring and evaluation</li>
+          <li>Advance critical thinking</li>
+        </ul>
+      </div>
+
+      <div class="contactMe">
+        <a href="mailto:tamim.shamal@gmail.com"><input class="btn" type="button" name="button" value="Contact Me"></a>
+      </div>
+    </div><br>
+
+    <div class="bottom-container">
+          <a class="footer-link" href="https://www.facebook.com/tamim.shamal/" target="_blank">Facebook</a>
+          <a class="footer-link" href="https://twitter.com/TamShamal" target="_blank">Twitter</a>
+          <a class="footer-link" href="https://tamimshamal.wordpress.com/" target="_blank">Website</a>
+    <br/>
+      <p class="footer">© 2021 Tamim Shamal.</p>
+    </div>
+
+<!-- Here is the end of the page -->
+
+
+  </body>
+</html>
